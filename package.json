@@ -1,8 +1,11 @@
 {
-  "name": "ionic-hello-world",
+  "name": "ph-zip-finder",
   "version": "0.0.0",
-  "author": "Ionic Framework",
-  "homepage": "http://ionicframework.com/",
+  "author": "Jong Torralba <a.r.torralba.iii@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/artorralbaiii/ph-zip-finder.git"
+  },
   "private": true,
   "scripts": {
     "clean": "ionic-app-scripts clean",
@@ -44,5 +47,5 @@
     "ionic-plugin-keyboard"
   ],
   "cordovaPlatforms": [],
-  "description": "ph_zip_search: An Ionic project"
+  "description": "PH Zip Finder: An app you can use for searching Zip Codes from the Philippines."
 }
