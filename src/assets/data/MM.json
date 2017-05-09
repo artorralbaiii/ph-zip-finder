@@ -1,0 +1,11 @@
+{
+    "Manila" : [
+        { "location" : "Binondo", "zip" : "1006" },
+        { "location" : "Intramuros", "zip" : "1102"}
+    ],
+
+    "Quezon City" : [
+        { "location" : "Alicia", "zip" : "1105" },
+        { "location" : "Amihan", "zip" : "1102"}
+    ]
+}

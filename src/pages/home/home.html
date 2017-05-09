@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>{{ title }}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-searchbar (ionInput)="searchData($event)"></ion-searchbar>
+  
+  <ion-item-group *ngFor="let city of displayCities" >
+    <ion-item-divider color="light">{{ city }}</ion-item-divider>
+    <ion-item *ngFor="let zip of zipCodes[city]" >
+      {{ zip.location }}
+      <p item-right>{{ zip.zip }}</p>
+    </ion-item>
+  </ion-item-group>
+
+</ion-content>
