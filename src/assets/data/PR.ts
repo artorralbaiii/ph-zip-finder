@@ -1,4 +1,4 @@
-{
+export const PR = {
     "Abra" : [
         { "location" : "Bangued", "zip" : "2800" },
         { "location" : "Boliney", "zip" : "2815"}
